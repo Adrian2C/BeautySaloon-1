@@ -1,0 +1,9 @@
+@use '../utils/index' as ut;
+
+/**
+ * Basic typography style for copy text
+ */
+body {
+  color: ut.$text-color;
+  font: normal 125% / 1.4 ut.$text-font-stack;
+}

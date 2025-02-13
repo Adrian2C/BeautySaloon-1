@@ -1,0 +1,85 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+
+/// Regular font family
+/// @type List
+$text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+/// Code (monospace) font family
+/// @type List
+$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+
+
+/// Copy text color
+/// @type Color
+$text-color: rgb(34, 34, 34) !default;
+
+/// Main brand color
+/// @type Color
+$brand-color: rgb(229, 0, 80) !default;
+
+/// Light grey
+/// @type Color
+$light-grey: rgb(237, 237, 237) !default;
+
+/// Medium grey
+/// @type Color
+$mid-grey: rgb(153, 153, 153) !default;
+
+/// Dark grey
+/// @type Color
+$dark-grey: rgb(68, 68, 68) !default;
+
+
+/// Container's maximum width
+/// @type Length
+$max-width: 1180px !default;
+
+
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints: (
+  'small': 320px,
+  'medium': 768px,
+  'large': 1024px,
+  'xlarge': 1280px,
+) !default;
+
+
+/// Spacing map
+/// @prop {String} keys - Keys are identifiers mapped to specific spacing values
+/// @prop {Map} values - Values are actual spacing measurements expressed in pixels
+$spacing: (
+  'xs': 4px,
+  'sm': 8px,
+  'md': 12px,
+  'lg': 16px,
+  'xl': 20px,
+  'xxl': 28px,
+  '3xl': 40px,
+  '4xl': 60px,
+  '5xl': 100px,
+  '6xl': 160px,
+  '7xl': 240px,
+) !default;
+
+/// Sizing map
+/// @prop {String} keys - Keys are identifiers mapped to specific sizing values
+/// @prop {Map} values - Values are actual sizing measurements expressed in rem units
+$sizing: (
+  'xs': 0.25rem,
+  'sm': 0.5rem,
+  'md': 0.75rem,
+  'lg': 1rem,
+  'xl': 1.25rem,
+  'xxl': 1.75rem,
+  '3xl': 2.5rem,
+  '4xl': 3.75rem,
+  '5xl': 6.25rem,
+  '6xl': 10rem,
+  '7xl': 15rem,
+) !default;
