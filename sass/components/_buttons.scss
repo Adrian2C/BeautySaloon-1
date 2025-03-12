@@ -1,0 +1,30 @@
+@use "../utils/index" as ut;
+
+.btn-contact {
+    border: 0.12em solid black;
+    border-radius: 0;
+    width: 10em;
+    margin-top: 3em;
+    padding: 10px 0;
+
+    font-weight: 700;
+    font-size: 25px;
+    &:hover {
+        -webkit-box-shadow: -6px 9px 15px 0px rgba(0, 0, 0, 0.67);
+        -moz-box-shadow: -6px 9px 15px 0px rgba(0, 0, 0, 0.67);
+        box-shadow: -6px 9px 15px 0px rgba(0, 0, 0, 0.67);
+    }
+    &:active {
+        background: ut.$text-color-b;
+        color: ut.$text-color-w;
+    }
+    @media screen and (min-width: 860px) {
+        width: 170px;
+        height: 40px;
+        margin: 0;
+        margin-left:30px;
+        padding: 0;
+        border: 1px solid black;
+        font-size: 18px;
+    }
+}

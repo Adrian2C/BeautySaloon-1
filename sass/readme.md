@@ -1,4 +1,17 @@
 /// organizacion de carpetas sass <br>
+
+/// En cada carpeta se añade un archivo '<br>_index</br>', que reciba mediante un @forward todas las modificaciones y archivos contenidos en la carpeta, sin el '_x' de cada archivo, se usan en la carpeta que queramos usar con el '@use (carpeta) as (letra o * para global)'
+
+ej:
+@use '../utils' as a;
+
+.card{
+    font-size:a.$font.size;
+}
+
+
+y a cada archivo se le agrega el 
+
 <br>
 /// <b>sass</b>/<br>
 /// |<br>
@@ -49,4 +62,3 @@
 /// `– <b>main.scss</b>             # Archivo principal de Sass<br>
 <br>
 <br>
-/// En cada carpeta se añade un archivo '_index', que reciba mediante un @forward todas las modificaciones y archivos contenidos en la carpeta, sin el '_x' de cada archivo

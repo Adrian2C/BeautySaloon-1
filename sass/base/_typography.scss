@@ -1,9 +1,11 @@
-@use '../utils/index' as ut;
+@use "../utils/index" as u;
+
+@import url("https://fonts.googleapis.com/css2?family=Belleza&display=swap");
 
 /**
  * Basic typography style for copy text
  */
 body {
-  color: ut.$text-color;
-  font: normal 125% / 1.4 ut.$text-font-stack;
+  color: u.$text-color-b;
+  font: normal 125% / 1.4 u.$text-font;
 }
