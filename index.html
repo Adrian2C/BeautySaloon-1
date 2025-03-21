@@ -10,8 +10,15 @@
 </head>
 
 <body>
-    <!-- navbar -->
-    <nav class="navbar">
+    <!-- navbar  -->
+    <span class="menu-toggle-mobile">
+        <img src="./sass/assets/logo.png" alt="Logo">
+
+        <button id="menu-toggle" class="menu-btn">
+            <i class='bx bx-menu'></i>
+        </button>
+    </span>
+    <nav class="navbar" id="menu">
         <div class="navbar-logo">
             <a class="navbar-brand" href="#">
                 <img src="./sass/assets/logo.png" alt="Logo">
@@ -47,12 +54,23 @@
             <p>Calidad y Compromiso a tu servicio</p>
         </div>
         <div class="main-img">
-            <img src="./sass/assets/model.png" alt="model-img" s>
+            <img src="./sass/assets/model.png" alt="model-img" class="main-img">
         </div>
     </main>
+    
     <section class="section">
-        <div class="grid">
-
+        <div class="us">
+            <h3>Tu Peluqueria</h3>
+            <div class="us-container">
+                <div class="us-container_tx">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut debitis perspiciatis tempore hic
+                        reiciendis totam soluta eos sint quam ipsam, necessitatibus unde doloribus sit error culpa.
+                        Doloribus assumenda cumque doloremque!</p>
+                </div>
+                <div class="us-container_img">
+                    <img src="./sass/assets/about-img.png" alt="model">
+                </div>
+            </div>
         </div>
     </section>
     <section class="section">
@@ -83,6 +101,7 @@
     <section class="contact">
 
     </section>
+    <script src="./js/script.js"></script>
 </body>
 
 

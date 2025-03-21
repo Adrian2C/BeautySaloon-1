@@ -1,0 +1,67 @@
+@use "../utils/index" as ut;
+
+.us {
+    /* position: relative; */
+    border: 1px solid yellow;
+    height:750px;
+    h3 {
+        font-size: map-get(ut.$sizing, "4xl");
+        font-weight: 300;
+        text-shadow: -7px -2px 8px #706767;
+    }
+    &-container {
+        display: flex;
+        flex-direction: row;
+        background: black;
+        width: 80%;
+        height: 460px;
+        margin: 0 auto;
+        border: 1px solid red;
+        position: relative;
+        &_tx {
+            border: 1px solid white;
+            color: ut.$text-color-w;
+            font-size: map-get(ut.$sizing, "xl");
+            width: 460px;
+            margin: auto;
+        }
+        &_img {
+            /* width: 50%; */
+            height: 500px;
+            position: absolute;
+            right: 250px;
+            top:0;
+            img {
+                height: 100%;
+            }
+        }
+    }
+}
+
+/* border:1px solid red; */
+/* h3 {
+    } */
+/*     border: 1px solid red;
+
+    position: relative;
+    &-container {
+        background: ut.$secondary-color;
+        width: 90%;
+        margin: auto;
+        display:flex;
+        &_tx {
+            width: 50%;
+            p {
+                color: ut.$text-color-w;
+                letter-spacing: 4px; */
+/* font-size: ut.$mapsizing(5xl); */
+/*             }
+        }
+        &-img {
+            img{
+                height:500px;
+            }
+        }
+    }
+}
+ */

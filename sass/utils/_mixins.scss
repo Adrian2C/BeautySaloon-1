@@ -7,6 +7,7 @@
   border-radius: $radius;
 }
 //boxshadows
+//se usa usando @include ut.propiedad(valor)
 @mixin box-shadow($x, $y, $blur, $color) {
   -webkit-box-shadow: $x $y $blur $color;
   -moz-box-shadow: $x $y $blur $color;
